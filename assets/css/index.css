@@ -96,10 +96,15 @@ body {
   font-weight: bold;
 }
 
-.movie-image {
-  width: 100%;
+.video {
+  display: flex;
+  overflow-x: scroll;
 
   margin-bottom: 100px;
+}
+
+.video__videos {
+  width: 90%;
 }
 
 .youth-studio-introduce {
@@ -336,6 +341,7 @@ body {
 }
 
 .about-sum__button {
+  text-decoration: none;
   background: none;
   border: 1px solid white;
   text-align: center;
